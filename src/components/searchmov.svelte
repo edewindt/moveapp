@@ -20,20 +20,22 @@
 	button {
 		background-color: black;
 		color: whitesmoke;
-		border: none;
+		border: 0.05rem solid whitesmoke;
 		padding: 0.5rem;
 		border-radius: 0.5rem;
 		font-size: 1.25rem;
 		font-weight: 600;
 		transition: 0.5s;
+		cursor: pointer;
 	}
 	input {
-		height: 1.6rem;
+		height: 1.7rem;
 		border-radius: 0.5rem;
 	}
 	button:hover {
 		background-color: rgb(255, 175, 252);
 		color: black;
+		border: 0.05rem solid rgb(255, 175, 252);
 	}
 
 	form input {
